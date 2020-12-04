@@ -1,0 +1,125 @@
+// 对象的 key 为集合名称
+// key.data 是集合的记录数据，数组内一项为一条数据
+// 以部分数据、部分字段为例
+{
+	"label": { // 分类表
+		"data": [{
+				"name": "吃什么",
+				"user": []
+			}, {
+				"name": "性格测试",
+				"user": []
+			},
+			{
+				"name": "大力水手",
+				"user": []
+			},
+			{
+				"name": "其它",
+				"user": []
+			}
+		]
+	},
+	"food": { // 分类表
+		"data": [{
+				"image": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-cloud-life/ea4140e0-c326-11ea-b680-7980c8a877b8.jpg",
+				"title": "炒土豆丝"
+			}, {
+				"image": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-cloud-life/ea4cd9a0-c326-11ea-b244-a9f5e5565f30.jpg",
+				"title": "西红柿炒鸡蛋"
+			},
+			{
+				"image": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-cloud-life/ea369280-c326-11ea-b997-9918a5dda011.jpg",
+				"title": "虎皮尖椒"
+			},
+			{
+				"image": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-cloud-life/de6a3800-c329-11ea-8a36-ebb87efcf8c0.jpg",
+				"title": "西葫芦炒鸡蛋"
+			},
+			{
+				"image": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-cloud-life/de753480-c329-11ea-8ff1-d5dcf8779628.jpg",
+				"title": "蒜蓉油麦菜"
+			},
+			{
+				"image": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-cloud-life/de585db0-c329-11ea-9dfb-6da8e309e0d8.jpg",
+				"title": "麻辣香锅"
+			},
+			{
+				"image": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-cloud-life/de0cfcd0-c329-11ea-9dfb-6da8e309e0d8.jpg",
+				"title": "排骨炖山药玉米"
+			},
+			{
+				"image": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-cloud-life/de09ef90-c329-11ea-8bd0-2998ac5bbf7e.jpg",
+				"title": "辣椒炒豆腐"
+			},
+			{
+				"image": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-cloud-life/de4c9de0-c329-11ea-8a36-ebb87efcf8c0.jpg",
+				"title": "韭菜炒鸡蛋"
+			},
+			{
+				"image": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-cloud-life/de240740-c329-11ea-9dfb-6da8e309e0d8.jpg",
+				"title": "尖椒干豆腐"
+			},
+			{
+				"image": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-cloud-life/de51ce00-c329-11ea-8a36-ebb87efcf8c0.jpg",
+				"title": "芹菜炒肉"
+			},
+			{
+				"image": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-cloud-life/de594810-c329-11ea-8a36-ebb87efcf8c0.jpg",
+				"title": "蒜蓉西蓝花"
+			},
+			{
+				"image": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-cloud-life/ddb6ed90-c329-11ea-8a36-ebb87efcf8c0.jpg",
+				"title": "炖鱼"
+			},
+			{
+				"image": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-cloud-life/dde92120-c329-11ea-8bd0-2998ac5bbf7e.jpg",
+				"title": "酱茄子"
+			},
+			{
+				"image": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-cloud-life/dde613e0-c329-11ea-81ea-f115fe74321c.jpg",
+				"title": "油焖大虾"
+			},
+			{
+				"image": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-cloud-life/ddf703d0-c329-11ea-8a36-ebb87efcf8c0.jpg",
+				"title": "松仁玉米"
+			},
+			{
+				"image": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-cloud-life/dde52980-c329-11ea-8bd0-2998ac5bbf7e.jpg",
+				"title": "耗油香菇油菜"
+			},
+			{
+				"image": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-cloud-life/ddfde1a0-c329-11ea-81ea-f115fe74321c.jpg",
+				"title": "土豆炖豆角"
+			},
+			{
+				"image": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-cloud-life/de050d90-c329-11ea-8a36-ebb87efcf8c0.jpg",
+				"title": "木耳拌黄瓜"
+			},
+			{
+				"image": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-cloud-life/de0868f0-c329-11ea-8a36-ebb87efcf8c0.jpg",
+				"title": "土豆炖茄子"
+			},
+			{
+				"image": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-cloud-life/ddfe08b0-c329-11ea-9dfb-6da8e309e0d8.jpg",
+				"title": "蒜台炒肉"
+			},
+			{
+				"image": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-cloud-life/de0582c0-c329-11ea-8bd0-2998ac5bbf7e.jpg",
+				"title": "圆葱炒鸡蛋"
+			},
+			{
+				"image": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-cloud-life/de06e250-c329-11ea-9dfb-6da8e309e0d8.jpg",
+				"title": "辣椒炒鸡蛋"
+			},
+			{
+				"image": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-cloud-life/de0eaa80-c329-11ea-9dfb-6da8e309e0d8.jpg",
+				"title": "打卤面"
+			},
+			{
+				"image": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-cloud-life/ddf5cb50-c329-11ea-8bd0-2998ac5bbf7e.jpg",
+				"title": "宫爆鸡丁"
+			}
+		]
+	}
+}
